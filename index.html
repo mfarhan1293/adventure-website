@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<title>adventure website</title>
+</head>
+<body>
+
+
+	<!-- NAVBAR -->
+
+	<nav class="navbar">
+		<h1 class="logo animate__animated animate__fadeInTopLeft animate__slow	2s">abventure</h1>
+		<ul class="nav-manu">
+			<li><a href="#" class="active">home</a></li>
+			<li><a href="#tour">tour</a></li>
+			<li><a href="#events">Event</a></li>
+			<li><a href="#explore">xplore</a></li>
+			<li><a href="#about">about</a></li>
+			<li><a href="#" class="btn">contect</a></li>
+		</ul>
+		<img src="./images/navbar-button.png" alt="images" class="nav-btn">
+	</nav>
+
+
+
+	<!-- HEADER SECTION -->
+
+	<header>
+		<div class="header-content ">
+			<h2 class="animate__animated animate__bounce animate__slow	2s">Explore The Colorful World</h2>
+			<div class="line"></div>
+			<h1 class="animate__animated animate__backInUp animate__slow	3s">A WONDERFULL GIFT</h1>
+			<a href="#" class="btn">Learn More</a>
+		</div>
+	</header>
+
+
+
+
+	<!-- EVENTS SECTION -->
+
+	<section class="Events" id="events">
+		<div class="title">
+			<h1>Upcoming Events</h1>
+			<div class="line"></div>	
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="img-box">
+					<img src="./images/Event1.jpg" alt="images" class="img">
+				</div>
+				<h4>Everest Camp Trek</h4>
+				<p>Events" can refer to a wide range of occurrences, from social gatherings and celebrations to significant happenings in various fields. Here's some content related to different types of events</p>
+				<a href="#" class="btn">Learn More</a>
+			</div>
+			<div class="col">
+				<div class="img-box">
+					<img src="./images/Event2.jpg" alt="images" class="img">
+				</div>	
+				<h4>Walking Holidays</h4>
+				<p>"Holidays" refer to special days set aside for commemoration or celebration, often marked by traditions, customs, and activities. Different cultures and regions celebrate various holidays.</p>
+				<a href="#" class="btn">Learn More</a>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<!-- EXPLORE-SECTION -->
+
+
+	<section class="explore" id="explore">
+		<div class="explore-content">
+			<h1>EXPLORE THE WORLD</h1>
+			<div class="line"></div>
+			<P>Exploring the world can be an incredibly enriching and transformative experience. Here are some general tips and ideas for exploring the world.</P>
+			<a href="#" class="btn">Learn More</a>	
+		</div>
+	</section>
+
+
+
+
+	<!-- TOUR SECTION -->
+
+
+	<section class="tour" id="tour">
+		<div class="row">
+			<div class="col content-col">
+				<h1>UPCOMING TOUR & DESTINATION</h1>
+				<div class="line"></div>
+				<P>I'll need more specific information about the type of tour content you're looking for. Are you interested in information about travel destinations, historical tours, virtual tours, or something else</P>	
+				<a href="#" class="btn">Learn More</a>
+			</div>
+			<div class="col image-col">
+				<div class="tour-image">
+
+					<div class="img-box">
+						<img src="./images/image1.jpg" alt="images" class="img">
+					</div>
+					<div class="img-box">
+						<img src="./images/image3.jpg" alt="images" class="img">
+					</div>
+					<div class="img-box">
+						<img src="./images/image4.jpg" alt="images" class="img">
+					</div>
+					<div class="img-box">
+						<img src="./images/image2.jpeg" alt="images" class="img">
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<!-- FOOTER SECTION -->
+
+	<section class="footer" id="about">
+		<p>123 fifth Avenue, NY 10160, NEW YORK, USA | Phone:0800-123-456 | Email: content@examle.com</p>
+		<p>Copyright 2023 Outdoor Adventure</p>
+		<div class="social-icon">
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-instagram"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-whatsapp"></i>
+			<i class="fa-solid fa-phone"></i>			
+		</div>	
+	</section>
+
+
+
+
+
+
+	<script>
+		const navbtn = document.querySelector('.nav-btn')
+		const navmanu = document.querySelector('.nav-manu')
+
+		navbtn.addEventListener('click',()=>{navmanu.classList.toggle('mobile-manu')})
+	</script>
+
+</body>
+</html>
